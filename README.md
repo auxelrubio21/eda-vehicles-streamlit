@@ -1,16 +1,24 @@
-# Explorador de Vehículos en Venta (USA)
+# 🚗 Explorador de Vehículos en Venta (USA) – Streamlit App
 
-Aplicación web construida con Streamlit para visualizar datos de anuncios de autos usados en Estados Unidos.
+Esta aplicación web permite realizar un análisis exploratorio de datos sobre anuncios de autos usados en Estados Unidos. Fue desarrollada con **Streamlit**, **Pandas** y **Plotly Express**, y está desplegada en Render.
 
-## Funcionalidades
-- Histograma de kilometraje (`odometer`)
-- Gráfico de dispersión (`odometer` vs `price`)
-- Visualización tabular del dataset
+## 🌐 App en vivo
 
-## Requisitos
-- Python 3.8 o superior
-- Librerías: pandas, plotly_express, streamlit
+👉 [https://vehicles-streamlit.onrender.com](https://vehicles-streamlit.onrender.com)
 
-## Cómo correr la app localmente
-```bash
-streamlit run app.py
+## 📊 Funcionalidades
+
+- Visualización de histogramas (por ejemplo, kilometraje / odómetro)
+- Gráficos de dispersión para analizar la relación entre variables (ej. precio vs odómetro)
+- Exploración básica del dataset `vehicles_us.csv`
+- Visualización del DataFrame con opción a mostrar u ocultar
+
+## 🛠 Tecnologías
+
+- Python 3.x
+- Streamlit
+- Pandas
+- Plotly Express
+
+## 📁 Estructura del proyecto
+
